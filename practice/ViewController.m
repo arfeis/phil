@@ -29,6 +29,8 @@ int getHitByBomb(int x){
         [obj shoot];
     }
     else if ([obj];
+             
+             ///obj short
 }
 
 - (void)didReceiveMemoryWarning {
