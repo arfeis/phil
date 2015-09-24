@@ -10,8 +10,8 @@
 
 @interface ViewController ()
 
-@end
 
+@end
 int getHitByBomb(int x){
     return 1;
 }
@@ -24,10 +24,11 @@ int getHitByBomb(int x){
     NSObject *obj = [[NSObject alloc]init];
     NSString *str = [[NSString alloc]init];
     NSString *str1=[str stringByAppendingString:str];
-    if (obj respondsToSelector:@selector(count)){
+    if (obj respondsToSelector:@selector(count))
+    {
         [obj shoot];
-                                                }
-    else if ([obj])
+    }
+    else if ([obj];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -36,25 +37,9 @@ int getHitByBomb(int x){
 }
 
 
-- (bool) getHitByBomb:(int)x {
-   // {
-        //float leftEdge = self.center;
-        
-        //return (bomb.position>=leftedge);
-    return true;
-    }
-    
+
+
+
+//test11111
 @end
-
-
-
-//
-//- (void)dealloc: (long) x{
-//    [[NSNotificationCenter defaultCenter] removeObserver:self];
-//    id obj=nil;
-//    NSString *hello = nil;
-//    NSInteger i = [self.obj methodwhichreturnsanint];
-//    CGPoint p=[self.obj getlocation];
-//}
-
 
